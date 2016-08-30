@@ -130,7 +130,7 @@ syntax match castepCellOperator "\v\="
 syntax match castepCellOperator "\v:"
 highlight link castepCellOperator Operator
 
-syntax match castepCellNumber "\v\-?\d+(\.\d+)?(e\-?\d+)?"
+syntax match castepCellNumber "\v<\-?\d+(\.\d+)?(e\-?\d+)?>"
 highlight link castepCellNumber Number
 
 let b:current_syntax = "castepCell"

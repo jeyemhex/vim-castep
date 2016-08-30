@@ -353,7 +353,7 @@ syntax match castepParamOperator "\v\="
 syntax match castepParamOperator "\v:"
 highlight link castepParamOperator Operator
 
-syntax match castepParamNumber "\v\d+(\.\d+)?(e\d+)?"
+syntax match castepParamNumber "\v<\d+(\.\d+)?(e\d+)?>"
 highlight link castepParamNumber Number
 
 let b:current_syntax = "castepParam"
